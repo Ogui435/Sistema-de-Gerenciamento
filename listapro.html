@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de Projetos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    <body>
+        <h1>Cadastro de Projetos</h1>
+        <form method="post" action="SalvarProdutos.jsp">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </p>
+             <p>
+                <label for="descricao">Descrição</label>
+                <input type="text" name="descricao" id="descricao">
+            </p>
+             <p>
+                <label for="data_inicio">Data de Inicio:</label>
+                <input type="text" name="data_inicio" id="data_inicio">
+            </p>
+             <p>
+                <label for="data_fim">Data de Fim:</label>
+                <input type="text" name="data_fim" id="data_fim">
+            </p>
+            <br><br>
+            <input type="submit" value="salvar">
+        </form>
+    </body>
+</html>
